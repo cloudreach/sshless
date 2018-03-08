@@ -1,0 +1,36 @@
+interactions:
+- request:
+    body: '{"CommandId": "7ce628a4-e96c-4a52-88be-027750b6bf58"}'
+    headers:
+      Authorization:
+      - !!binary |
+        QVdTNC1ITUFDLVNIQTI1NiBDcmVkZW50aWFsPUFLSUFJTzZZTFdHREhRUVlGM0hBLzIwMTgwMjE5
+        L2V1LWNlbnRyYWwtMS9zc20vYXdzNF9yZXF1ZXN0LCBTaWduZWRIZWFkZXJzPWNvbnRlbnQtdHlw
+        ZTtob3N0O3gtYW16LWRhdGU7eC1hbXotdGFyZ2V0LCBTaWduYXR1cmU9MzI1OTAxM2NmMGZjMzJk
+        ZDU2ZDMwNjg2YzNhMmE1NDY5M2M1NjQyYTQ0NDc4NTBiZjdmYTg4ZjI3YTAxMDg2ZQ==
+      Content-Length: ['53']
+      Content-Type:
+      - !!binary |
+        YXBwbGljYXRpb24veC1hbXotanNvbi0xLjE=
+      User-Agent:
+      - !!binary |
+        Qm90bzMvMS41LjMxIFB5dGhvbi8zLjYuMiBEYXJ3aW4vMTYuNy4wIEJvdG9jb3JlLzEuOC40NQ==
+      X-Amz-Date:
+      - !!binary |
+        MjAxODAyMTlUMTkzNzU5Wg==
+      X-Amz-Target:
+      - !!binary |
+        QW1hem9uU1NNLkxpc3RDb21tYW5kcw==
+    method: POST
+    uri: https://ssm.eu-central-1.amazonaws.com/
+  response:
+    body: {string: '{"Commands":[{"CommandId":"7ce628a4-e96c-4a52-88be-027750b6bf58","Comment":"sshless
+        cli","CompletedCount":1,"DocumentName":"AWS-RunShellScript","DocumentVersion":"","ErrorCount":0,"ExpiresAfter":1.51784561934E9,"InstanceIds":[],"Interactive":false,"MaxConcurrency":"50","MaxErrors":"1","NotificationConfig":{"NotificationArn":"","NotificationEvents":[],"NotificationType":""},"OutputS3BucketName":"","OutputS3KeyPrefix":"","Parameters":{"commands":["uname
+        -a"]},"RequestedDateTime":1.51784141934E9,"ServiceRole":"","Status":"Success","StatusDetails":"Success","TargetCount":1,"Targets":[{"Key":"tag:SSM","Values":["on"]}]}]}'}
+    headers:
+      Content-Length: ['624']
+      Content-Type: [application/x-amz-json-1.1]
+      Date: ['Mon, 19 Feb 2018 19:37:59 GMT']
+      x-amzn-RequestId: [6410f068-15ac-11e8-b899-c329fc5f2f36]
+    status: {code: 200, message: OK}
+version: 1

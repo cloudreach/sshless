@@ -1,0 +1,136 @@
+interactions:
+- request:
+    body: '{"DocumentName": "AWS-RunShellScript", "Parameters": {"commands": ["\"ls\""]},
+      "Comment": "sshless cli", "MaxErrors": "1", "TimeoutSeconds": 600, "InstanceIds":
+      ["i-0b83e0b9f8f900500"]}'
+    headers:
+      Authorization:
+      - !!binary |
+        QVdTNC1ITUFDLVNIQTI1NiBDcmVkZW50aWFsPUFLSUFJTzZZTFdHREhRUVlGM0hBLzIwMTgwMjE5
+        L2V1LXdlc3QtMS9zc20vYXdzNF9yZXF1ZXN0LCBTaWduZWRIZWFkZXJzPWNvbnRlbnQtdHlwZTto
+        b3N0O3gtYW16LWRhdGU7eC1hbXotdGFyZ2V0LCBTaWduYXR1cmU9NGQ2MjE0N2Q5NWJmYjA2Yjk3
+        Zjc5NmE0ZDhhOGI0ZGVjNTgzNzExMDc4Mjc0NjFmODExNTQ0NWU0NTBiMjBhOA==
+      Content-Length: ['185']
+      Content-Type:
+      - !!binary |
+        YXBwbGljYXRpb24veC1hbXotanNvbi0xLjE=
+      User-Agent:
+      - !!binary |
+        Qm90bzMvMS41LjMxIFB5dGhvbi8zLjYuNCBEYXJ3aW4vMTYuNy4wIEJvdG9jb3JlLzEuOC40NQ==
+      X-Amz-Date:
+      - !!binary |
+        MjAxODAyMTlUMjIzNjUyWg==
+      X-Amz-Target:
+      - !!binary |
+        QW1hem9uU1NNLlNlbmRDb21tYW5k
+    method: POST
+    uri: https://ssm.eu-west-1.amazonaws.com/
+  response:
+    body: {string: '{"Command":{"CommandId":"cff40d22-0b32-4525-bf4e-5d4bd867a6bc","Comment":"sshless
+        cli","CompletedCount":0,"DocumentName":"AWS-RunShellScript","DocumentVersion":"","ErrorCount":0,"ExpiresAfter":1.519084012398E9,"InstanceIds":["i-0b83e0b9f8f900500"],"Interactive":false,"MaxConcurrency":"50","MaxErrors":"1","NotificationConfig":{"NotificationArn":"","NotificationEvents":[],"NotificationType":""},"OutputS3BucketName":"","OutputS3KeyPrefix":"","Parameters":{"commands":["\"ls\""]},"RequestedDateTime":1.519079812398E9,"ServiceRole":"","Status":"Pending","StatusDetails":"Pending","TargetCount":1,"Targets":[]}}'}
+    headers:
+      Content-Length: ['609']
+      Content-Type: [application/x-amz-json-1.1]
+      Date: ['Mon, 19 Feb 2018 22:36:51 GMT']
+      x-amzn-RequestId: [6181d7cd-15c5-11e8-95ee-69d72d92455f]
+    status: {code: 200, message: OK}
+- request:
+    body: '{"CommandId": "cff40d22-0b32-4525-bf4e-5d4bd867a6bc"}'
+    headers:
+      Authorization:
+      - !!binary |
+        QVdTNC1ITUFDLVNIQTI1NiBDcmVkZW50aWFsPUFLSUFJTzZZTFdHREhRUVlGM0hBLzIwMTgwMjE5
+        L2V1LXdlc3QtMS9zc20vYXdzNF9yZXF1ZXN0LCBTaWduZWRIZWFkZXJzPWNvbnRlbnQtdHlwZTto
+        b3N0O3gtYW16LWRhdGU7eC1hbXotdGFyZ2V0LCBTaWduYXR1cmU9NTEyZjY3YjY4ZWI1NzRiZmUx
+        NGJmMTRkZjJkMjMxNzk3YzY4ZTdhMWIxMDJhNWE1MDY5ZjVkYWExNjU4MzZlZg==
+      Content-Length: ['53']
+      Content-Type:
+      - !!binary |
+        YXBwbGljYXRpb24veC1hbXotanNvbi0xLjE=
+      User-Agent:
+      - !!binary |
+        Qm90bzMvMS41LjMxIFB5dGhvbi8zLjYuNCBEYXJ3aW4vMTYuNy4wIEJvdG9jb3JlLzEuOC40NQ==
+      X-Amz-Date:
+      - !!binary |
+        MjAxODAyMTlUMjIzNjUyWg==
+      X-Amz-Target:
+      - !!binary |
+        QW1hem9uU1NNLkxpc3RDb21tYW5kcw==
+    method: POST
+    uri: https://ssm.eu-west-1.amazonaws.com/
+  response:
+    body: {string: '{"Commands":[{"CommandId":"cff40d22-0b32-4525-bf4e-5d4bd867a6bc","Comment":"sshless
+        cli","CompletedCount":0,"DocumentName":"AWS-RunShellScript","DocumentVersion":"","ErrorCount":0,"ExpiresAfter":1.519084012398E9,"InstanceIds":["i-0b83e0b9f8f900500"],"Interactive":false,"MaxConcurrency":"50","MaxErrors":"1","NotificationConfig":{"NotificationArn":"","NotificationEvents":[],"NotificationType":""},"OutputS3BucketName":"","OutputS3KeyPrefix":"","Parameters":{"commands":["\"ls\""]},"RequestedDateTime":1.519079812398E9,"ServiceRole":"","Status":"InProgress","StatusDetails":"InProgress","TargetCount":1,"Targets":[]}]}'}
+    headers:
+      Content-Length: ['618']
+      Content-Type: [application/x-amz-json-1.1]
+      Date: ['Mon, 19 Feb 2018 22:36:51 GMT']
+      x-amzn-RequestId: [61b14c64-15c5-11e8-95ee-69d72d92455f]
+    status: {code: 200, message: OK}
+- request:
+    body: '{"CommandId": "cff40d22-0b32-4525-bf4e-5d4bd867a6bc"}'
+    headers:
+      Authorization:
+      - !!binary |
+        QVdTNC1ITUFDLVNIQTI1NiBDcmVkZW50aWFsPUFLSUFJTzZZTFdHREhRUVlGM0hBLzIwMTgwMjE5
+        L2V1LXdlc3QtMS9zc20vYXdzNF9yZXF1ZXN0LCBTaWduZWRIZWFkZXJzPWNvbnRlbnQtdHlwZTto
+        b3N0O3gtYW16LWRhdGU7eC1hbXotdGFyZ2V0LCBTaWduYXR1cmU9YjU1NzQxNTNiYzc3MWFmZTQx
+        ZmYyMjY5OGNkNTEwMDc5YWE4MDJmZmY4M2ZjNTUxOTljNjQ0YzY4Njk3NmVlOA==
+      Content-Length: ['53']
+      Content-Type:
+      - !!binary |
+        YXBwbGljYXRpb24veC1hbXotanNvbi0xLjE=
+      User-Agent:
+      - !!binary |
+        Qm90bzMvMS41LjMxIFB5dGhvbi8zLjYuNCBEYXJ3aW4vMTYuNy4wIEJvdG9jb3JlLzEuOC40NQ==
+      X-Amz-Date:
+      - !!binary |
+        MjAxODAyMTlUMjIzNjUzWg==
+      X-Amz-Target:
+      - !!binary |
+        QW1hem9uU1NNLkxpc3RDb21tYW5kcw==
+    method: POST
+    uri: https://ssm.eu-west-1.amazonaws.com/
+  response:
+    body: {string: '{"Commands":[{"CommandId":"cff40d22-0b32-4525-bf4e-5d4bd867a6bc","Comment":"sshless
+        cli","CompletedCount":1,"DocumentName":"AWS-RunShellScript","DocumentVersion":"","ErrorCount":0,"ExpiresAfter":1.519084012398E9,"InstanceIds":["i-0b83e0b9f8f900500"],"Interactive":false,"MaxConcurrency":"50","MaxErrors":"1","NotificationConfig":{"NotificationArn":"","NotificationEvents":[],"NotificationType":""},"OutputS3BucketName":"","OutputS3KeyPrefix":"","Parameters":{"commands":["\"ls\""]},"RequestedDateTime":1.519079812398E9,"ServiceRole":"","Status":"Success","StatusDetails":"Success","TargetCount":1,"Targets":[]}]}'}
+    headers:
+      Content-Length: ['612']
+      Content-Type: [application/x-amz-json-1.1]
+      Date: ['Mon, 19 Feb 2018 22:36:52 GMT']
+      x-amzn-RequestId: [6273638b-15c5-11e8-95ee-69d72d92455f]
+    status: {code: 200, message: OK}
+- request:
+    body: '{"Details": true, "CommandId": "cff40d22-0b32-4525-bf4e-5d4bd867a6bc"}'
+    headers:
+      Authorization:
+      - !!binary |
+        QVdTNC1ITUFDLVNIQTI1NiBDcmVkZW50aWFsPUFLSUFJTzZZTFdHREhRUVlGM0hBLzIwMTgwMjE5
+        L2V1LXdlc3QtMS9zc20vYXdzNF9yZXF1ZXN0LCBTaWduZWRIZWFkZXJzPWNvbnRlbnQtdHlwZTto
+        b3N0O3gtYW16LWRhdGU7eC1hbXotdGFyZ2V0LCBTaWduYXR1cmU9MWU0MGI1NWE5NmY0NTFiZDNk
+        NWM5ZjY4ODk4ZTBkZTA2ZGJhZGE0ZmVmYjdhYjgyODhkYzEzMTNjMDNmOTY2Ng==
+      Content-Length: ['70']
+      Content-Type:
+      - !!binary |
+        YXBwbGljYXRpb24veC1hbXotanNvbi0xLjE=
+      User-Agent:
+      - !!binary |
+        Qm90bzMvMS41LjMxIFB5dGhvbi8zLjYuNCBEYXJ3aW4vMTYuNy4wIEJvdG9jb3JlLzEuOC40NQ==
+      X-Amz-Date:
+      - !!binary |
+        MjAxODAyMTlUMjIzNjU0Wg==
+      X-Amz-Target:
+      - !!binary |
+        QW1hem9uU1NNLkxpc3RDb21tYW5kSW52b2NhdGlvbnM=
+    method: POST
+    uri: https://ssm.eu-west-1.amazonaws.com/
+  response:
+    body: {string: '{"CommandInvocations":[{"CommandId":"cff40d22-0b32-4525-bf4e-5d4bd867a6bc","CommandPlugins":[{"Name":"aws:runShellScript","Output":"bin\nboot\ncgroup\ndev\netc\nhome\nlib\nlib64\nlocal\nlost+found\nmedia\nmnt\nopt\nproc\nroot\nrun\nsbin\nselinux\nsrv\nsys\ntmp\nusr\nvar\n","OutputS3BucketName":"","OutputS3KeyPrefix":"","OutputS3Region":"eu-west-1","ResponseCode":0,"ResponseFinishDateTime":1.51907981274E9,"ResponseStartDateTime":1.519079812736E9,"StandardErrorUrl":"","StandardOutputUrl":"","Status":"Success","StatusDetails":"Success"}],"Comment":"sshless
+        cli","DocumentName":"AWS-RunShellScript","DocumentVersion":"","InstanceId":"i-0b83e0b9f8f900500","InstanceName":"","NotificationConfig":{"NotificationArn":"","NotificationEvents":[],"NotificationType":""},"RequestedDateTime":1.519079812478E9,"ServiceRole":"","StandardErrorUrl":"","StandardOutputUrl":"","Status":"Success","StatusDetails":"Success"}]}'}
+    headers:
+      Content-Length: ['911']
+      Content-Type: [application/x-amz-json-1.1]
+      Date: ['Mon, 19 Feb 2018 22:36:53 GMT']
+      x-amzn-RequestId: [627f2368-15c5-11e8-95ee-69d72d92455f]
+    status: {code: 200, message: OK}
+version: 1

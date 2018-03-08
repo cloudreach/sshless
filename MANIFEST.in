@@ -1,0 +1,10 @@
+include VERSION
+include LICENSE
+include README.rst
+include requirements.txt
+
+include sshless
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]
+
+recursive-include conf.py Makefile
