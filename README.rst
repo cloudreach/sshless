@@ -2,6 +2,13 @@
 SSHLess with AWS SSM
 ====================
 
+.. image:: https://travis-ci.org/cloudreach/sshless.svg?branch=master
+    :target: https://travis-ci.org/cloudreach/sshless
+
+.. image:: https://badge.fury.io/py/sshless.svg
+    :target: https://badge.fury.io/py/sshless
+
+
 Overview
 --------
 
