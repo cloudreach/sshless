@@ -91,6 +91,10 @@ SSHLess DEMO
 
 Full Demo Lab is available `HERE <test/README.rst>`_
 
+Maintenance
+-----------
+Cloudreach shall, where possible, use reasonable efforts to maintain this repository. Typically the repository is maintained by the developer in his/her free or personal development time.
+
 License
 -------
 
